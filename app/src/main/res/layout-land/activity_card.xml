@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CardActivity"
+    >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/imgland"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/layout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="@dimen/indent"
+            android:layout_marginEnd="@dimen/standartindent"
+            android:layout_marginTop="@dimen/standartindent">
+
+            <ImageView
+                android:layout_width="@dimen/squaresize"
+                android:layout_height="@dimen/squaresize"
+                android:src="@drawable/engineer"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/halfofstandart"
+                android:textSize="@dimen/textsize"
+                android:text="@string/building_automation_engineer"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="@dimen/indent"
+            android:layout_marginEnd="@dimen/standartindent"
+            android:layout_marginTop="@dimen/standartindent">
+
+            <ImageView
+                android:layout_width="@dimen/squaresize"
+                android:layout_height="@dimen/squaresize"
+                android:src="@drawable/building"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/halfofstandart"
+                android:textSize="@dimen/textsize"
+                android:text="@string/automation_for_civil_construction"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="@dimen/indent"
+            android:layout_marginEnd="@dimen/standartindent"
+            android:layout_marginTop="@dimen/standartindent">
+
+            <ImageView
+                android:layout_width="@dimen/squaresize"
+                android:layout_height="@dimen/squaresize"
+                android:src="@drawable/factory"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/halfofstandart"
+                android:textSize="@dimen/textsize"
+                android:text="@string/automation_for_industry"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line"
+            android:background="@color/colorPrimary"
+            android:layout_marginStart="@dimen/indent"
+            android:layout_marginEnd="@dimen/standartindent"
+            android:layout_marginTop="@dimen/standartindent"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/indent"
+            android:layout_marginEnd="@dimen/standartindent"
+            android:layout_marginTop="@dimen/standartindent"
+            android:textSize="@dimen/textsize"
+            android:text="@string/Andrew_has_been"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line"
+            android:background="@color/colorPrimary"
+            android:layout_marginStart="@dimen/indent"
+            android:layout_marginEnd="@dimen/standartindent"
+            android:layout_marginTop="@dimen/standartindent"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/indent"
+            android:layout_marginEnd="@dimen/standartindent"
+            android:layout_marginTop="@dimen/standartindent"
+            android:backgroundTint="@color/colorPrimary"
+            android:hint="@string/enter_a_message"
+            android:textSize="@dimen/textsize"
+            android:id="@+id/message"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/standartindent"
+            android:layout_gravity="end"
+            android:textSize="@dimen/textsize"
+            android:textColor="@color/colorPrimary"
+            android:text="@string/send_message"
+            android:background="@color/transparent"
+            android:id="@+id/sendbutton"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/standartindent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/standartindent">
+
+            <ImageButton
+                android:layout_width="@dimen/squaresize"
+                android:layout_height="@dimen/squaresize"
+                android:src="@drawable/call"
+                android:background="@color/transparent"
+                android:id="@+id/phone"/>
+
+            <ImageButton
+                android:layout_width="@dimen/squaresize"
+                android:layout_height="@dimen/squaresize"
+                android:layout_marginStart="@dimen/standartindent"
+                android:layout_marginEnd="@dimen/standartindent"
+                android:src="@drawable/telegram"
+                android:id="@+id/telegram"/>
+
+            <ImageButton
+                android:layout_width="@dimen/squaresize"
+                android:layout_height="@dimen/squaresize"
+                android:src="@drawable/vk"
+                android:id="@+id/vk"/>
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

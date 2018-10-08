@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Andrew Yashin</string>
+    <string name="building_automation_engineer">Building automation engineer</string>
+    <string name="automation_for_civil_construction">Automation for civil construction</string>
+    <string name="automation_for_industry">Automation for industry</string>
+    <string name="Andrew_has_been">Andrew has been dealing for more than 6 years with industrial automatization. During this period he has created more than 20 building automation projects in civil constructional engineering and became an author of one of the largest in Russia pharmaceutical factory automatization project.</string>
+    <string name="enter_a_message">Enter a message</string>
+    <string name="send_message">SEND MESSAGE</string>
+</resources>

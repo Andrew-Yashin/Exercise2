@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="indent">50dp</dimen>
+    <dimen name="standartindent">16dp</dimen>
+    <dimen name="squaresize">28dp</dimen>
+    <dimen name="textsize">16sp</dimen>
+    <dimen name="halfofstandart">8dp</dimen>
+    <dimen name="line">1dp</dimen>
+</resources>
