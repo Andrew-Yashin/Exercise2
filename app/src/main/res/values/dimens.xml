@@ -6,4 +6,9 @@
     <dimen name="textsize">16sp</dimen>
     <dimen name="halfofstandart">8dp</dimen>
     <dimen name="line">1dp</dimen>
+    <dimen name="textsize24">24sp</dimen>
+    <dimen name="textsize14">14sp</dimen>
+    <dimen name="textsize18">18sp</dimen>
+    <dimen name="textsize12">12sp</dimen>
+    <dimen name="imagesize100">100dp</dimen>
 </resources>

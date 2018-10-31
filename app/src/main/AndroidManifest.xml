@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.andrewyashin.exercise2">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -11,19 +11,30 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <activity android:name=".NewListActivity">
+        <activity
+            android:name=".NewListActivity"
+            android:label="NY Times"
+            android:parentActivityName=".NewListActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".AboutActivity"
+            android:label="@string/about"
             android:windowSoftInputMode="stateHidden"
-            android:label="@string/about"/>
+            android:parentActivityName=".NewListActivity"/>
+
+        <activity
+            android:name=".NewsDetailsActivity"
+            android:parentActivityName=".NewListActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NewListActivity"/>
+        </activity>
+
 
     </application>
 
